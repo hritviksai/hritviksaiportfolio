@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // --- Loading state ---
       setLoading(true);
 
+      try {
         // --- Send to Formspree ---
         const res = await fetch('https://formspree.io/f/xgobkkge', {
           method: 'POST',

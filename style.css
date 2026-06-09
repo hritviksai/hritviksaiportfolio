@@ -343,6 +343,11 @@ body {
   border-color: rgba(6, 182, 212, 0.45);
 }
 
+.project-github-btn.demo-btn:hover {
+  color: #a78bfa;
+  border-color: rgba(139, 92, 246, 0.45);
+}
+
 .project-github-btn svg { transition: transform 0.25s ease; }
 .project-github-btn:hover svg { transform: scale(1.15); }
 
